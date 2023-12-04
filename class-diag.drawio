@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T18:37:39.414Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="LlIWQxSBWqGffp5MbV9A" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-04T18:40:41.046Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Xi8v_7sqO7aWy3VWFfnE" version="22.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1469" dy="775" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,15 +87,12 @@
         <mxCell id="RGPg3Phsf_hFLjb0v7s5-8" value="List Channels" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="412" y="842" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RGPg3Phsf_hFLjb0v7s5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RGPg3Phsf_hFLjb0v7s5-11" target="zkfFHV4jXpPFQw0GAbJ--17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="RGPg3Phsf_hFLjb0v7s5-11" value="Post" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="392" y="384" width="160" height="112" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RGPg3Phsf_hFLjb0v7s5-12" value="PostID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="RGPg3Phsf_hFLjb0v7s5-11">
+        <mxCell id="RGPg3Phsf_hFLjb0v7s5-12" value="PostID, ChannelID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="RGPg3Phsf_hFLjb0v7s5-11">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RGPg3Phsf_hFLjb0v7s5-15" value="Create Post" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="RGPg3Phsf_hFLjb0v7s5-11">
@@ -123,6 +120,22 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="284" y="576" as="sourcePoint" />
             <mxPoint x="444" y="576" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGPg3Phsf_hFLjb0v7s5-25" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="119.5" y="754" as="sourcePoint" />
+            <mxPoint x="119.5" y="658" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGPg3Phsf_hFLjb0v7s5-26" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;exitX=0.84;exitY=0.929;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RGPg3Phsf_hFLjb0v7s5-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="528" y="503" as="sourcePoint" />
+            <mxPoint x="588" y="563" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="528" y="536" />
+              <mxPoint x="588" y="536" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
