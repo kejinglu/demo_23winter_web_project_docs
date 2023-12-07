@@ -1,0 +1,28 @@
+
+
+
+
+Demo :
+
+
+1.register and login:
+    register for tina4 - (see badge: beginner 0-4 posts)
+    coco - (badge - having >5 posts, expert)
+2.create channel and post
+post in off-topic
+naughty channel, naughty post
+nauty comment
+naughty reply
+2.5. upvote and downvote
+
+3.reply with pic, and 2nd layer reply
+    in 2 channels
+4.search posts by userid, post content
+ max posts and etc are shown top of the page.
+
+5.admin: can only see admin pages
+ delete:
+    user:Tina1,
+    channel:naughty channel,
+    post: naughty post
+    reply:2 naughty replies
